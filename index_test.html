@@ -18,7 +18,6 @@
 	</head>
 
 	<body>
-		
 		<nav class="navbar navbar-expand-lg navbar-light nav-distance">
 			<div class="container-fluid">
 				<a class="navbar-brand" href="http://josunpredict.cf">조선시대 신분 테스트</a>
@@ -27,10 +26,8 @@
 		</nav>
 
 		<section class="section">
-			<h1 class="title">조선시대 신분 테스트</h1>
+			<h1 class="title">관상으로 보는 조선시대 신분 테스트</h1>
 			<h2 class="subtitle">조선시대 신분별로 관상을 학습한 인공지능이 결과를 제공합니다.</h2>
-			
-			<h3 class="subtitle2">(사진은 저장되지 않습니다.)</h3>
 		</section>
 
 		<script
@@ -62,12 +59,7 @@
 					accept="image/*"
 				/>
 				<div class="drag-text">
-					<img
-						src="img/upload.png"
-						
-						class="mt-5 upload"
-						style="width: 15%;"
-					/>
+					<img src="img/upload.png" class="mt-5 upload" style="width: 15%;" />
 					<h3 class="mb-5 pd-5 pt-2 upload-text">
 						얼굴 사진을 올려놓거나 눌러서 업로드 하세요
 					</h3>
@@ -83,7 +75,8 @@
 				</div>
 				<p class="result-message"></p>
 				<div id="label-container" class="d-flex flex-column justify-content-around"></div>
-				<!-- Go to www.addthis.com/dashboard to customize your tools --> <div class="addthis_inline_share_toolbox"></div>
+				<!-- Go to www.addthis.com/dashboard to customize your tools -->
+				<div class="addthis_inline_share_toolbox"></div>
 				<div class="pt-3 image-title-wrap">
 					<button type="button p-2" class="try-again-btn" onclick="gaReload1();">
 						<span class="try-again-text">다른 사진으로 재시도</span>
@@ -91,11 +84,6 @@
 				</div>
 			</div>
 		</div>
-		<script>
-			function gaReload1(){
-				window.location.reload();
-			}
-		</script>
 		<div class="ad-banner">
 			<ins
 				class="kakao_ad_area"
@@ -131,25 +119,36 @@
  data-ad-width   = "320" 
  data-ad-height  = "100"></ins> 
 <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+			
+			
 		</div>
-			<script>
-				/**
-				 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-				 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-				/*
+		<footer class="footer pt-5 container d-flex justify-content-center">
+        <div>
+            <p>&copy; ss3un9 2021. All Rights Reserved. </p>
+		<script>
+			function gaReload1() {
+				window.location.reload();
+			}
+		</script>
+
+		<script>
+			/**
+			 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+			 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+			/*
 			  var disqus_config = function () {
 			  this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
 			  this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 			  };
 			  */
-				(function () {
-					// DON'T EDIT BELOW THIS LINE
-					var d = document,
-						s = d.createElement('script');
-					s.src = 'https://ai-predict.disqus.com/embed.js';
-					s.setAttribute('data-timestamp', +new Date());
-					(d.head || d.body).appendChild(s);
-				})();
+			(function () {
+				// DON'T EDIT BELOW THIS LINE
+				var d = document,
+					s = d.createElement('script');
+				s.src = 'https://ai-predict.disqus.com/embed.js';
+				s.setAttribute('data-timestamp', +new Date());
+				(d.head || d.body).appendChild(s);
+			})();
 		</script>
 		<noscript
 			>Please enable JavaScript to view the
@@ -236,35 +235,35 @@
 				switch (prediction[0].className) {
 					case '임금':
 						resultTitle = '임금';
-						resultMesseage = '당신은 한 나라의 왕이 될 상입니다';
+						resultMesseage = '임금';
 						break;
 					case '왕비':
 						resultTitle = '왕비';
-						resultMesseage = '임금이 사랑하는 여자 입니다.';
+						resultMesseage = '왕비';
 						break;
 					case '공주':
 						resultTitle = '공주';
-						resultMesseage = '조선시대의 공주가 될 상입니다. 인기가 많을 것 같은 얼굴이네요 !';
+						resultMesseage = '공주';
 						break;
 					case '양반':
 						resultTitle = '양반';
-						resultMesseage = '조선시대 양반은 관료를 뜻합니다. 또한 세금과 역을 면제 받기도 했죠 !';
+						resultMesseage = '양반;
 						break;
 					case '중인':
 						resultTitle = '중인';
-						resultMesseage = '주로 중인의 직업으로는 향리,역관,천문관 등의 기술직으로 구성 되어 있습니다!';
+						resultMesseage = '중인';
 						break;
 					case '상민':
 						resultTitle = '상민';
-						resultMesseage = '주로 상민의 직업으로는 농민과 수공업자 , 상인이 속한 조선시대 신분입니다 !';
+						resultMesseage = '상민';
 						break;
 					case '천민':
 						resultTitle = '천민';
-						resultMesseage = '주로 천민의 직업으로는 노비,백정,무당,광대 등으로 구성되며 특히 노비의 경우 재산으로 취급되어 매매,상속,증여의 대상이 되었습니다 !';
+						resultMesseage = '천민';
 						break;
 					case '장군':
 						resultTitle = '장군';
-						resultMesseage = '당신은 장군이 될 상입니다.';
+						resultMesseage = '장군';
 						break;
 					default:
 						resultTitle = '알수없음';
@@ -335,5 +334,8 @@
 				}
 			}
 		</script>
+			
+			</div>
+		</footer>
 	</body>
 </html>

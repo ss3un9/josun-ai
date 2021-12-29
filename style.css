@@ -439,3 +439,11 @@ background-color:#ffffff
 	padding-left:15%;
 	padding-top:3%;
 }
+.copyright{
+	margin-top:5%;
+	text-align:center;
+	font-family:NanumSquare;
+	font-weight:700;
+	font-size:1rem;
+	
+}

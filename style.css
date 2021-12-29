@@ -143,7 +143,9 @@ background-color:#ffffff
 	font-size:1.25rem;
 	text-align:left;
 	color:#35465d;
+
 }
+
 .navbar-light .navbar-toggler{
 	border-color:#ffffff;
 }
@@ -448,4 +450,12 @@ background-color:#ffffff
 	font-weight:700;
 	font-size:1rem;
 	
+}
+
+.about{
+	margin-top:3%;
+	text-align:center;
+	font-family:NanumSquare;
+	font-weight:700;
+	font-size:1rem;
 }

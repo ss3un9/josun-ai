@@ -328,12 +328,15 @@ background-color:#ffffff
 }
 .percent-text {
   font-size: 1rem;
+	font-family:NanumSquare;
   color: #ffffff;
 }
 .jos-label {
     width: 20%;
     text-align: left;
     height: 2rem;
+	font-family:NanumSquare;
+	font-weight:700;
 }
 #label-container {
     width: 80%;
@@ -341,11 +344,16 @@ background-color:#ffffff
 }
 .result-Message {
     font-size: 2rem;
+	font-family:NanumSquare;
+	font-weight:700;
+	
 }
 
 
 .jos-message {
     font-size: 1.5rem;
+	font-family:NanumSquare;
+	font-weight:700;
 }
 .임금-jos-title {
     color: #3ba363;
@@ -396,7 +404,8 @@ background-color:#ffffff
 }
 
 .loading-text{
-	
+	font-family:NanumSquare;
+	font-weight:700;
 	line-height:1.53;
 	font-size=1rem;
 	text-align:center;

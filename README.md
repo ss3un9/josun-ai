@@ -8,6 +8,9 @@ teachablemachine , Html , JavaScript , css
 티처블 머신을 활용한 학습 분석 
 
 
+URL : https://josunpredict.cf/
+
+
 
 ![image](https://user-images.githubusercontent.com/80509214/171159519-29f4fb4e-56fb-4d6e-8574-c9b4d3656537.png)
 
